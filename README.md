@@ -31,6 +31,8 @@ dependencies {
 ```
 ## How To Use
 
+From Xml:
+
 ```
 <com.github.brkckr.candela.Candela
         android:id="@+id/candela"
@@ -47,13 +49,17 @@ dependencies {
         app:isTouchEnabled="false"
         app:sunlightStrokeWidth="8"/>
 	
-	candela.setProgressListener(object : ProgressListener {
+```
+
+
+From Activity:
+```
+candela.setProgressListener(object : ProgressListener {
             override fun onProgressChange(progress: Int) {
                 //setBrightness(progress)
             }
         })
 ```
-
 
 
 ## Attributes

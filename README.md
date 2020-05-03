@@ -46,6 +46,12 @@ dependencies {
         app:isSunlightRounded="true"
         app:isTouchEnabled="false"
         app:sunlightStrokeWidth="8"/>
+	
+	candela.setProgressListener(object : ProgressListener {
+            override fun onProgressChange(progress: Int) {
+                //setBrightness(progress)
+            }
+        })
 ```
 
 
@@ -68,14 +74,14 @@ Name | Description | Type | Default | Range
 :--|:--|:-:|:--|:-:
 colorEmpty | Empty color of the view | Color | #212121 | -
 colorFill | Fill color of the view | Color | #FFFFFF | -
-colorSun | Color of the Progress Bar | Color | Color.BLACK | 1
-colorSunlight | Width of the Progress Bar | Dimension | 8dp | 1
-cornerRadius | Bg Color of the Progress Bar | Color | Color.GRAY |1
-currentProgress | Width of the Background | Dimension | 4dp | 1
-maxProgress | Width of the Background | Dimension | 4dp |123
-sunlightStrokeWidth | Width of the Background | Dimension | 4dp | 123
-isSunlightRounded | Width of the Background | Dimension | 4dp | 123
-isTouchEnabled | Width of the Background | Dimension | 4dp | 123
+colorSun | Color of the sun | Color | #FCB514 | -
+colorSunlight | Color of the sunlight | Color | #FCB514 | -
+cornerRadius | Corner radius of the view | Integer | 50 |-
+currentProgress | Current progress of the view | Integer | 0 | -
+maxProgress | Maximum progress of the view | Integer | 255 |-
+sunlightStrokeWidth | Width of the sunlight stroke | Integer | 8 | -
+isSunlightRounded | Is sunlight rounded? | Boolean | True | True or False
+isTouchEnabled | Is touch enabled | Boolean | Boolean | True or False
 
 ## Credits
 

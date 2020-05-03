@@ -87,7 +87,7 @@ currentProgress | Current progress of the view | Integer | 0 | -
 maxProgress | Maximum progress of the view | Integer | 255 |-
 sunlightStrokeWidth | Width of the sunlight stroke | Integer | 8 | -
 isSunlightRounded | Is sunlight rounded? | Boolean | True | True or False
-isTouchEnabled | Is touch enabled | Boolean | Boolean | True or False
+isTouchEnabled | Is touch enabled | Boolean | True | True or False
 
 ## Credits
 

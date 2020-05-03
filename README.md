@@ -52,24 +52,30 @@ dependencies {
 
 ## Attributes
 
-  <attr name="cpbState" format="enum" >
-            <enum name="clockwise" value="0"/>
-            <enum name="counterClockwise" value="1"/>
-        </attr>
-        <attr name="cpbProgressValue" format="integer" />
-        <attr name="cpbProgressColor" format="color" />
-        <attr name="cpbProgressWidth" format="dimension" />
-        <attr name="cpbBackgroundColor" format="color" />
-        <attr name="cpbBackgroundWidth" format="dimension" />
+<attr name="colorEmpty" format="color" />
+<attr name="colorFill" format="color" />
+<attr name="colorSun" format="color" />
+<attr name="colorSunlight" format="color" />
+<attr name="cornerRadius" format="int" />
+<attr name="currentProgress" format="int" />
+<attr name="maxProgress" format="int" />
+<attr name="sunlightStrokeWidth" format="int" />
+<attr name="isSunlightRounded" format="boolean" />
+<attr name="isTouchEnabled" format="boolen" />
+
 
 Name | Description | Type | Default | Range
 :--|:--|:-:|:--|:-:
-cpbState | State of the Progress Bar | Enum | clockwise | clockwise or counterclockwise
-cpbProgressValue | Progress's Value | integer | 0 | 0 to 100
-cpbProgressColor | Color of the Progress Bar | Color | Color.BLACK | -
-cpbProgressWidth | Width of the Progress Bar | Dimension | 8dp | -
-cpbBackgroundColor | Bg Color of the Progress Bar | Color | Color.GRAY | -
-cpbBackgroundWidth | Width of the Background | Dimension | 4dp | -
+colorEmpty | Empty color of the view | Color | #212121 | -
+colorFill | Fill color of the view | Color | #FFFFFF | -
+colorSun | Color of the Progress Bar | Color | Color.BLACK | 1
+colorSunlight | Width of the Progress Bar | Dimension | 8dp | 1
+cornerRadius | Bg Color of the Progress Bar | Color | Color.GRAY |1
+currentProgress | Width of the Background | Dimension | 4dp | 1
+maxProgress | Width of the Background | Dimension | 4dp |123
+sunlightStrokeWidth | Width of the Background | Dimension | 4dp | 123
+isSunlightRounded | Width of the Background | Dimension | 4dp | 123
+isTouchEnabled | Width of the Background | Dimension | 4dp | 123
 
 ## Credits
 

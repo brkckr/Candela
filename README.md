@@ -33,17 +33,23 @@ dependencies {
 ## How To Use
 
 ```
-<com.brkckr.circularprogressbar.CircularProgressBar
-        android:id="@+id/circularProgressBar"
-        app:cpbBackgroundColor="#F1992D"
-        app:cpbBackgroundWidth="@dimen/background_width"
-        app:cpbProgressColor="#9F3238"
-        app:cpbProgressValue="15"
-        app:cpbProgressWidth="@dimen/progress_width"
-        app:cpbState="clockwise"
-        android:layout_width="128dp"
-        android:layout_height="128dp"/>
+<com.github.brkckr.candela.Candela
+        android:id="@+id/candela"
+        android:layout_width="100dp"
+        android:layout_height="500dp"
+        app:colorEmpty="#F44336"
+        app:colorFill="#FF9800"
+        app:colorSun="#3F51B5"
+        app:colorSunlight="#673AB7"
+        app:cornerRadius="100"
+        app:currentProgress="80"
+        app:maxProgress="100"
+        app:isSunlightRounded="true"
+        app:isTouchEnabled="false"
+        app:sunlightStrokeWidth="8"/>
 ```
+
+
 
 ## Attributes
 

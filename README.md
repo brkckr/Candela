@@ -5,8 +5,7 @@
 
 <h4 align="center">iOS style brightness control view. 🔆 🔅</h4>
 
-![screenshot](https://media.giphy.com/media/RLV1w1thh1Qzuic08s/giphy.gif)
-![screenshot](https://media.giphy.com/media/9xk58iEZU0T9sic4Wk/giphy.gif)
+![screenshot](https://media.giphy.com/media/Vi08Qk4wM2BVx8KjHD/giphy.gif)
 
 ## How To Install
 

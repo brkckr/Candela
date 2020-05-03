@@ -1,9 +1,9 @@
-<h1 align="center">
+<h1 align="left">
   <br>
   Candela
 </h1>
 
-<h4 align="center">iOS style brightness control view. 🔆 🔅</h4>
+<h4 align="left">iOS style brightness control view. 🔆 🔅</h4>
 
 ![screenshot](https://media.giphy.com/media/Vi08Qk4wM2BVx8KjHD/giphy.gif)
 

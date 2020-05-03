@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Candela">
+        <attr name="colorEmpty" format="color" />
+        <attr name="colorFill" format="color" />
+        <attr name="colorSun" format="color" />
+        <attr name="colorSunlight" format="color" />
+
+        <attr name="maxProgress" format="integer" />
+        <attr name="currentProgress" format="integer" />
+
+        <attr name="cornerRadius" format="integer" />
+        <attr name="sunlightStrokeWidth" format="integer"/>
+
+        <attr name="isSunlightRounded" format="boolean" />
+        <attr name="isTouchEnabled" format="boolean"/>
+
+    </declare-styleable>
+
+</resources>
